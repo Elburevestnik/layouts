@@ -1,10 +1,198 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Layouts</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+  <head>
+    <title>Layouts</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./assets/logo.png" alt="logo" class="logo" />
+      <nav class="navigation">
+        <button class="btn-icon navigation__search">
+          <img src="./assets/search.png" alt="logo" class="search btn" />
+        </button>
+        <button class="btn-icon navigation__cart">
+          <img src="./assets/shopping-cart.png" alt="logo" class="cart-btn" />
+        </button>
+        <button class="primary-btn">Sign up</button>
+        <button class="secondary-btn">Sign in</button>
+      </nav>
+    </header>
+    <main>
+      <div class="image"></div>
+      <div class="info">
+        <article class="description">
+          <h1>Kembang Flower Mantap</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </article>
+        <div class="side-navigation">
+          <button class="primary-btn side-navigation__primary-btn">
+            <span class="side-navigation__dir">
+              <img src="./assets/arrow.png" alt="previous" aria-hidden="true" />
+              Previous</span
+            >
+            Kaktus Plant
+          </button>
+          <button class="secondary-btn side-navigation__secondaty-btn">
+            <span class="side-navigation__dir side-navigation__dir_inverse">
+              Next
+              <img
+                class="next-icon"
+                src="./assets/arrow.png"
+                alt="next"
+                aria-hidden="true"
+            /></span>
+            Rahasia Plant
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="features">
+          <div class="feature-item">
+            <img
+              class="feature-item__img"
+              src="./assets/fast.png"
+              alt="Fast Delivery Icon"
+              aria-hidden="true"
+            />
+            <span class="feature-item__title">Fast Delivery</span>
+            <p class="feature-item__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+          <div class="feature-item">
+            <img
+              class="feature-item__img"
+              src="./assets/customer.png"
+              alt="Great Customer Service"
+              aria-hidden="true"
+            />
+            <span class="feature-item__title">Great Customer Service</span>
+            <p class="feature-item__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+          <div class="feature-item">
+            <img
+              class="feature-item__img"
+              src="./assets/plant.png"
+              alt="Original Plants"
+              aria-hidden="true"
+            />
+            <span class="feature-item__title">Original Plants</span>
+            <p class="feature-item__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+          <div class="feature-item">
+            <img
+              class="feature-item__img"
+              src="./assets/price.png"
+              alt="Affordable Price"
+              aria-hidden="true"
+            />
+            <span class="feature-item__title">Affordable Price</span>
+            <p class="feature-item__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="plants">
+          <div class="plants__header">
+            <h2>Featured Plants</h2>
+            <label> </label>
+            <select class="plants__selector">
+              <option value="1">Cheaper First</option>
+            </select>
+          </div>
+          <div class="plants__list">
+            <div class="plants__list-item">
+              <img src="./assets/kaktus.png" alt="Kaktus Plants" aria-hidden="true" />
+              Kaktus Plants
+              <b>IDR 85.000</b>
+            </div>
+            <div class="plants__list-item">
+              <img src="./assets/landak.png" alt="Landak Plants" aria-hidden="true" />
+              Landak Plants
+              <b>IDR 105.000</b>
+            </div>
+            <div class="plants__list-item">
+              <img src="./assets/kecubung.png" alt="Kecubung Plants" aria-hidden="true" />
+              Kecubung Plants
+              <b>IDR 85.000</b>
+            </div>
+            <div class="plants__list-item">
+              <img src="./assets/kecubung-1.png" alt="Kecubung Plants" aria-hidden="true" />
+              Kecubung Plants
+              <b>IDR 85.000</b>
+            </div>
+            <div class="plants__list-item">
+              <img src="./assets/kecubung-2.png" alt="Kecubung Plants" aria-hidden="true" />
+              Kecubung Plants
+              <b>IDR 85.000</b>
+            </div>
+          </div>
+        </div>
+        <div class="facts">
+          <div class="facts__description">
+            <h2>Buy more plants, it helps you to be relaxed</h2>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et
+            mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas
+            vitae eros sapien. Quisque pellentesque tempus dignissim.
+          </div>
+          <img class="facts__img-1" src="./assets/img1.png" alt="Picture 1" aria-hidden="true" />
+          <img class="facts__img-2" src="./assets/img2.png" alt="Picture 2" aria-hidden="true" />
+        </div>
+        <div class="add">
+          <p class="add__text">
+            Get your favourites plant on our shop now
+            <button class="secondary-btn add__btn">Visit Shop</button>
+          </p>
+          <img src="./assets/img3.png" alt="Picture 3" aria-hidden="true" />
+        </div>
+      </div>
+    </main>
 
-    </body>
+    <footer>
+      <div class="footer-wrapper">
+        <p class="footer-item">
+          <span class="footer-title">plantku</span>
+          <span class="footer-item__title">Plantku House</span>
+          <span class="footer-item__info footer-item__info_light">
+            Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota Yogyakarta,
+            Daerah Istimewa Yogyakarta 55282</span
+          >
+        </p>
+        <p class="footer-item">
+          <span class="footer-item__title">Perusahaan</span>
+          <span class="footer-item__info">Tentang Kami</span>
+          <span class="footer-item__info">Hubungi Kami</span>
+        </p>
+        <p class="footer-item">
+          <span class="footer-item__title">Produk</span>
+          <span class="footer-item__info">Tanaman</span>
+          <span class="footer-item__info">Tanaman Lain</span>
+        </p>
+        <div class="footer-item">
+          <span class="footer-item__title">Berlangganan Email Kami</span>
+          <label> </label>
+          <input
+            class="footer-input"
+            type="text"
+            placeholder="Masukan Alamat Email"
+          />
+          <button class="secondary-btn footer-btn">Submit</button>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
