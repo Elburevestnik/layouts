@@ -49,6 +49,13 @@ h1 {
   color: var(--main-green-color);
 }
 
+button, select, a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--main-black-color);
+}
+
+
 button,
 p,
 h1,
@@ -216,6 +223,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 32px;
+
+  list-style-type: none;
 }
 
 .feature-item {
